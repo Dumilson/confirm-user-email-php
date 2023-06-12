@@ -1,0 +1,3 @@
+Date => 2021-09-20:11:27:16
+Message => SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mini-code.usersg' doesn't exist
+

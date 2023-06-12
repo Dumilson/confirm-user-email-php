@@ -1,0 +1,21 @@
+{
+    "name": "coderx19/mycode",
+    "description": "Meu projecto para desenvolvimento de projectos",
+    "authors": [{
+        "name": "myminiframework",
+        "email": "domingosbreganha9@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "config/config.php",
+            "config/database.php",
+            "functions/functions.php",
+            "functions/helpers.php",
+            "functions/validator.php",
+            "functions/controllers.php"
+        ]
+    }
+}
