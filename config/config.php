@@ -25,10 +25,10 @@ define("UPLOADVIDEO", DIRREQ . "public/storage/audio/");
 define("SHOW_ERRORS", true);
 
 define('EMAIL_CONFIG', [
-    'Host' =>  'smtp.hostinger.com',
+    'Host' =>  '',
     'SMTPAuth' =>  true,
-    'Username' => 'geral@domingosbraganha.tech',
-    'Password' => 'Kumesso19$',
+    'Username' => '',
+    'Password' => '',
     'SMTPSecure' => 'ssl',
     'Port' => 465,
     'CharSet' => 'utf-8',
