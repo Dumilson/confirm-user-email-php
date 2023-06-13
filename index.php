@@ -94,6 +94,15 @@ require_once 'vendor/autoload.php';
                   confirmButtonText: 'Ok'
                 });
               }
+
+              if(response.status == 401){
+                Swal.fire({
+                  icon: 'error',
+                  title: 'Erro ao Registrar!',
+                  text: 'O email que esta tentando registrar ja existe !',
+                  confirmButtonText: 'Ok'
+                });
+              }
               form.removeClass('was-validated');
             },
             error: function(error) {

@@ -89,10 +89,27 @@ class Models extends Connection {
         try{
             $columns = strlen($columns) ? $columns : '*';
             $pdo =  parent::getConn();
-            $sql = "SELECT {$columns} FROM $table WHERE $column = $value";
+            $sql = "SELECT {$columns} FROM $table WHERE {$column} = '{$value}'";
             $statement = $pdo->prepare($sql);
             $statement->execute();
             return $statement->fetch();
+        }catch(\Exception $e){
+            ExceptionErros::getLog($e->getMessage());
+        }
+    }
+
+
+        public static function check($table, $column, $value, $columns = "*") {
+        try{
+            $columns = strlen($columns) ? $columns : '*';
+            $pdo =  parent::getConn();
+            $sql = "SELECT {$columns} FROM $table WHERE {$column} = '{$value}'";
+            $statement = $pdo->prepare($sql);
+            $statement->execute();
+            if($statement->rowCount()){
+                return true;
+            }
+            return false;
         }catch(\Exception $e){
             ExceptionErros::getLog($e->getMessage());
         }
