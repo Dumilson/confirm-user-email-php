@@ -12,10 +12,12 @@
         "files": [
             "config/config.php",
             "config/database.php",
-            "functions/functions.php",
             "functions/helpers.php",
             "functions/validator.php",
             "functions/controllers.php"
         ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
     }
 }

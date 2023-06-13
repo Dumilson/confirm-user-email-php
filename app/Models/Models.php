@@ -21,7 +21,7 @@ class Models extends Connection {
             $statement->execute();
 
             if($statement->rowCount() > 0){
-                return true;
+                return $pdo->lastInsertId();
             }else{
                 return false;
             }

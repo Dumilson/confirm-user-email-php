@@ -1,3 +1,27 @@
 Date => 2021-09-20:11:27:16
 Message => SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mini-code.usersg' doesn't exist
 
+Date => 2023-06-12:10:56:01
+Message => SQLSTATE[HY000] [1049] Unknown database 'users'
+
+Date => 2023-06-12:11:19:15
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+
+Date => 2023-06-12:11:29:02
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null
+
+Date => 2023-06-12:11:29:53
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null
+
+Date => 2023-06-12:11:30:15
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null
+
+Date => 2023-06-12:11:30:20
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null
+
+Date => 2023-06-12:11:32:43
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+
+Date => 2023-06-13:01:14:52
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+
