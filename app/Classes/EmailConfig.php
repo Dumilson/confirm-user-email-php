@@ -11,19 +11,17 @@ class EmailConfig
     public function sendEmail($to, $name, $hash)
     {
         $mail = new PHPMailer(true);
-        try {
+    try {
             $mail->isSMTP();
-            $mail->Host = 'smtp.hostinger.com';
-            $mail->SMTPAuth = true;
-            $mail->Username = 'geral@domingosbraganha.tech';
-            $mail->Password = 'Kumesso19$';
-            $mail->SMTPSecure = 'ssl';
-            $mail->Port = 465;
-            $mail->CharSet = 'utf-8';  
-
-            $mail->setFrom('geral@domingosbraganha.tech', 'Domingos Braganha');
+            $mail->Host = EMAIL_CONFIG['Host'];
+            $mail->SMTPAuth = EMAIL_CONFIG['SMTPAuth'];
+            $mail->Username = EMAIL_CONFIG['Username'];
+            $mail->Password = EMAIL_CONFIG['Password'];
+            $mail->SMTPSecure = EMAIL_CONFIG['SMTPSecure'];
+            $mail->Port = EMAIL_CONFIG['Port'];
+            $mail->CharSet = EMAIL_CONFIG['CharSet'];
+            $mail->setFrom(EMAIL_CONFIG['Username'], 'Domingos Braganha');
             $mail->addAddress($to, $name);
-
             $mail->isHTML(true);
             $mail->Subject = 'Confirmação de Conta';
             $mail->Body = '<style> 
