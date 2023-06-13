@@ -25,6 +25,37 @@ function dd($dump){
      echo JS.$file.".js";
  }
 
+ 
+ function hashCode()
+ {
+     $maiu = [
+         '€',
+         '$',
+         '?',
+         '#',
+         ')',
+         '-',
+         'M',
+         'a',
+         'A',
+         'Z',
+         'L',
+         '/',
+         '=',
+         '~',
+         '%'
+     ];
+     $rar = rand(0, 7);
+     $rarr = rand(0, 7);
+     $rar1 = rand(0, 7);
+     $rar3 = rand(0, 7);
+     $rar5 = rand(0, 7);
+
+     $senha = rand(1, 51) . "" . $maiu[$rar5] . "" . $maiu[$rar3] . "" . $maiu[$rar1] . "" . rand(1, 51) . "" . $maiu[$rar] . rand(1, 69) . "" . $maiu[$rarr] . "" . rand(1, 51);
+
+     return $senha;
+ }
+
  function includes($filename){
     $explode = explode(',',$filename);
     $file = implode("/", $explode);

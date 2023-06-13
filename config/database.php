@@ -3,7 +3,7 @@
         "driver"=>"mysql",
         "host"=>"localhost",
         "port"=>"3306",
-        "dbname"=>"users",
+        "dbname"=>"user_confirm_email",
         "username"=>"root",
         "passwd"=>"",
         "options"=>[

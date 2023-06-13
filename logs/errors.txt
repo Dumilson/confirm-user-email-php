@@ -1,3 +1,102 @@
 Date => 2021-09-20:11:27:16
 Message => SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mini-code.usersg' doesn't exist
 
+Date => 2023-06-12:10:56:01
+Message => SQLSTATE[HY000] [1049] Unknown database 'users'
+
+Date => 2023-06-12:11:19:15
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+
+Date => 2023-06-12:11:29:02
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null
+
+Date => 2023-06-12:11:29:53
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null
+
+Date => 2023-06-12:11:30:15
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null
+
+Date => 2023-06-12:11:30:20
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null
+
+Date => 2023-06-12:11:32:43
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+
+Date => 2023-06-13:01:14:52
+Message => SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null
+
+Date => 2023-06-13:11:44:15
+Message => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')-6)32a11' at line 1
+
+Date => 2023-06-13:11:52:59
+Message => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')-6)32a11' at line 1
+
+Date => 2023-06-13:11:53:08
+Message => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')-6)32a11' at line 1
+
+Date => 2023-06-13:11:53:38
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column '$hash' in 'where clause'
+
+Date => 2023-06-13:11:53:50
+Message => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}' at line 1
+
+Date => 2023-06-13:11:55:31
+Message => SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}' at line 1
+
+Date => 2023-06-13:11:56:06
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:57:11
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:57:14
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:57:15
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:57:31
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:57:32
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:57:36
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'hash_code' in 'where clause'
+
+Date => 2023-06-13:11:58:19
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:58:22
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:58:49
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:58:50
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:58:51
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:59:24
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:59:29
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:11:59:30
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'hash_code_' in 'where clause'
+
+Date => 2023-06-13:11:59:40
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:12:00:01
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:12:00:19
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+
+Date => 2023-06-13:12:00:20
+Message => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e8d5a7cfa438fd40cfaf037e5f908ac8' in 'where clause'
+

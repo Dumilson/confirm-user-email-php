@@ -1,10 +1,3 @@
-<footer class="mastfoot mt-auto">
-    <div class="inner">
-        <p>Template do <a href="https://getbootstrap.com/">Bootstrap</a>, feito pelo <a href="https://twitter.com/mdo">@mdo</a>.</p>
-    </div>
-    </footer>
-</div>
-
-<script src="<?php js('jquery') ?>"></script>
-<script src="<?php js('popper.min')?>"></script>
-<script src="<?php js('bootstrap.min')?>"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
